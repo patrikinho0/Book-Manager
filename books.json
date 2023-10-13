@@ -1,0 +1,18 @@
+[
+    {
+        "isbn": 20,
+        "name": "Kordian",
+        "description": "opis",
+        "publish_year": 1830,
+        "author": "Slowacki",
+        "price": 40
+    },
+    {
+        "isbn": 25,
+        "name": "Zemsta",
+        "description": "opis",
+        "publish_year": 1842,
+        "author": "Fredro",
+        "price": 60
+    }
+]
