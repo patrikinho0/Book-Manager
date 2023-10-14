@@ -41,6 +41,35 @@ The application allows users to perform the following operations:
 
 7. Display books published after a specific year.
 
+## Manual testing
+
+The application allows the user to test the application manually:
+
+Step 1. Clone the repository:
+   ```
+   git clone https://github.com/patrikinho0/third-assignment-patrikinho0.git
+   ```
+
+Step 2. Go into the utils.py file
+
+Step 3. Uncomment the following functions and fill the example arguments within your liking:
+```py
+# add_new_book(1, "bookname", "description", 2018, "author", 29.99)
+
+# display_all_books()
+
+# display_lower_price(price)
+
+# display_higher_price(price)
+
+# display_author_books(author)
+
+# display_lower_year(publish_year)
+
+# display_higher_year(publish_year)
+```
+
+
 <br>
 
 <p align="center">Made by: <a href="https://github.com/patrikinho0">patrikinho0</a></p>
