@@ -164,3 +164,17 @@ def display_higher_year(publish_year):
             print(element.get("name") + "\n")
 
     return higher_year_books
+
+# add_new_book(1, "bookname", "description", 2018, "author", 29.99)
+
+# display_all_books()
+
+# display_lower_price(price)
+
+# display_higher_price(price)
+
+# display_author_books(author)
+
+# display_lower_year(publish_year)
+
+# display_higher_year(publish_year)
