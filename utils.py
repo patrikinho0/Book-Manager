@@ -25,11 +25,11 @@ def add_new_book(isbn, name, description, publish_year, author, price):
     with open(path, "w") as file:
         json.dump(all_books, file, indent=4)
 
-def display_all_books():
+def display_all_books(filename):
 
     # reading current file directory
     current_directory = os.path.dirname(os.path.abspath(__file__))
-    path = os.path.join(current_directory, "books.json")
+    path = os.path.join(current_directory, filename)
     
     all_books = []
     
@@ -46,10 +46,10 @@ def display_all_books():
 
     return book_names
 
-def display_lower_price(price):
+def display_lower_price(filename, price):
     # reading current file directory
     current_directory = os.path.dirname(os.path.abspath(__file__))
-    path = os.path.join(current_directory, "books.json")
+    path = os.path.join(current_directory, filename)
     
     all_books = []
     
@@ -69,11 +69,11 @@ def display_lower_price(price):
 
     return lower_priced_books
 
-def display_higher_price(price):
+def display_higher_price(filename, price):
 
     # reading current file directory
     current_directory = os.path.dirname(os.path.abspath(__file__))
-    path = os.path.join(current_directory, "books.json")
+    path = os.path.join(current_directory, filename)
     
     all_books = []
     
@@ -93,11 +93,11 @@ def display_higher_price(price):
 
     return higher_priced_books
 
-def display_author_books(author):
+def display_author_books(filename, author):
 
     # reading current file directory
     current_directory = os.path.dirname(os.path.abspath(__file__))
-    path = os.path.join(current_directory, "books.json")
+    path = os.path.join(current_directory, filename)
     
     all_books = []
     
@@ -117,11 +117,11 @@ def display_author_books(author):
 
     return author_books
 
-def display_lower_year(publish_year):
+def display_lower_year(filename, publish_year):
 
     # reading current file directory
     current_directory = os.path.dirname(os.path.abspath(__file__))
-    path = os.path.join(current_directory, "books.json")
+    path = os.path.join(current_directory, filename)
     
     all_books = []
     
@@ -141,11 +141,11 @@ def display_lower_year(publish_year):
 
     return lower_year_books
 
-def display_higher_year(publish_year):
+def display_higher_year(filename, publish_year):
 
     # reading current file directory
     current_directory = os.path.dirname(os.path.abspath(__file__))
-    path = os.path.join(current_directory, "books.json")
+    path = os.path.join(current_directory, filename)
     
     all_books = []
     
@@ -167,14 +167,14 @@ def display_higher_year(publish_year):
 
 # add_new_book(1, "bookname", "description", 2018, "author", 29.99)
 
-# display_all_books()
+# display_all_books("books.json")
 
-# display_lower_price(price)
+# display_lower_price("books.json", price)
 
-# display_higher_price(price)
+# display_higher_price("books.json", price)
 
-# display_author_books(author)
+# display_author_books("books.json", author)
 
-# display_lower_year(publish_year)
+# display_lower_year("books.json", publish_year)
 
-# display_higher_year(publish_year)
+# display_higher_year("books.json", publish_year)

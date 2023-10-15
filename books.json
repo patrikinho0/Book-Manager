@@ -14,5 +14,13 @@
         "publish_year": 1842,
         "author": "Fredro",
         "price": 60
+    },
+    {
+        "isbn": 30,
+        "name": "Potop",
+        "description": "opis",
+        "publish_year": 1928,
+        "author": "Henryk Sienkiewicz",
+        "price": 40
     }
 ]

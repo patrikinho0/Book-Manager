@@ -11,7 +11,7 @@ To use the Book Manager Application, follow these steps:
    git clone https://github.com/patrikinho0/third-assignment-patrikinho0.git
    ```
 
-3. Run the application using your IDE terminal.
+3. Run the application using your IDE terminal in the main.py file.
 
 ## Files
 
@@ -48,7 +48,6 @@ The application allows users to perform the following operations:
 - Display books published after a specific year.
   - python3 utils.py display_higher_year(publish_year)
 <br><br>
-
 ## Manual testing
 
 The application allows the user to test the application manually:
@@ -77,7 +76,10 @@ Step 3. Uncomment the following functions and fill the example arguments within 
 # display_higher_year(publish_year)
 ```
 
-
 <br>
+
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/PblptkeH)
+
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12231646&assignment_repo_type=AssignmentRepo)
 
 <p align="center">Made by: <a href="https://github.com/patrikinho0">patrikinho0</a></p>

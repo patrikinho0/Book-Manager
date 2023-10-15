@@ -39,7 +39,7 @@ elif choice == 2:
     print("Displaying books...")
     sleep(2)
     os.system('cls' if os.name == 'nt' else 'clear')
-    display_all_books()
+    display_all_books("books.json")
 
 elif choice == 3:
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -48,7 +48,7 @@ elif choice == 3:
     print("Searching...")
     sleep(2)
     os.system('cls' if os.name == 'nt' else 'clear')
-    display_lower_price(price_input)
+    display_lower_price("books.json", price_input)
 
 elif choice == 4:
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -57,7 +57,7 @@ elif choice == 4:
     print("Searching...")
     sleep(2)
     os.system('cls' if os.name == 'nt' else 'clear')
-    display_higher_price(price_input)
+    display_higher_price("books.json", price_input)
 
 elif choice == 5:
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -66,7 +66,7 @@ elif choice == 5:
     print("Searching...")
     sleep(2)
     os.system('cls' if os.name == 'nt' else 'clear')
-    display_author_books(author_input)
+    display_author_books("books.json", author_input)
 
 elif choice == 6:
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -74,7 +74,7 @@ elif choice == 6:
     os.system('cls' if os.name == 'nt' else 'clear')
     print("Searching...")
     os.system('cls' if os.name == 'nt' else 'clear')
-    display_lower_year(year_input)
+    display_lower_year("books.json", year_input)
 
 elif choice == 7:
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -82,7 +82,7 @@ elif choice == 7:
     os.system('cls' if os.name == 'nt' else 'clear')
     print("Searching...")
     os.system('cls' if os.name == 'nt' else 'clear')
-    display_higher_year(year_input)
+    display_higher_year("books.json", year_input)
 
 else:
     os.system('cls' if os.name == 'nt' else 'clear')

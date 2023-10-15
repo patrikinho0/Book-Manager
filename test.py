@@ -47,7 +47,7 @@ class TestMathMethods(unittest.TestCase):
 
           switch = False
 
-          displayed_data = display_all_books()
+          displayed_data = display_all_books("books.json")
 
           for element in displayed_data:
                if element != None:
@@ -60,7 +60,7 @@ class TestMathMethods(unittest.TestCase):
          
          switch = False
 
-         lower_priced_books = display_lower_price(50)
+         lower_priced_books = display_lower_price("books.json", 50)
 
          for element in lower_priced_books:
               if element != None:
@@ -73,7 +73,7 @@ class TestMathMethods(unittest.TestCase):
          
          switch = False
 
-         higher_priced_books = display_higher_price(50)
+         higher_priced_books = display_higher_price("books.json", 50)
 
          for element in higher_priced_books:
               if element != None:
@@ -86,7 +86,7 @@ class TestMathMethods(unittest.TestCase):
          
          switch = False
 
-         author_books = display_author_books("Slowacki")
+         author_books = display_author_books("books.json", "Slowacki")
 
          for element in author_books:
               if element != None:
@@ -99,7 +99,7 @@ class TestMathMethods(unittest.TestCase):
          
          switch = False
 
-         lower_year_books = display_lower_year(1900)
+         lower_year_books = display_lower_year("books.json", 1900)
 
          for element in lower_year_books:
               if element != None:
@@ -114,7 +114,7 @@ class TestMathMethods(unittest.TestCase):
          
          switch = False
 
-         higher_year_books = display_higher_year(1900)
+         higher_year_books = display_higher_year("books.json", 1900)
 
          for element in higher_year_books:
               if element != None:
