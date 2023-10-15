@@ -25,21 +25,29 @@ The application consists of the following files:
 ## Functionality
 
 The application allows users to perform the following operations:
+<br><br>
 
+- Add a new book.
+   - python3 utils.py add_new_book(ISBN, name, description, publish_year, author, price)
 
-1. Add a new book.
+- Display all books.
+  - python3 utils.py display_all_books()
 
-2. Display all books.
+- Display books with prices lower than the input.
+  - python3 utils.py display_lower_price(price)
 
-3. Display books with prices lower than the input.
+- Display books with prices higher than the input.
+  - python3 utils.py display_higher_price(price)
 
-4. Display books with prices higher than the input.
+- Display books by a specific author.
+  - python3 utils.py display_author_books(author)
 
-5. Display books by a specific author.
+- Display books published before a specific year.
+  - python3 utils.py display_lower_year(publish_year)
 
-6. Display books published before a specific year.
-
-7. Display books published after a specific year.
+- Display books published after a specific year.
+  - python3 utils.py display_higher_year(publish_year)
+<br><br>
 
 ## Manual testing
 
