@@ -31,22 +31,22 @@ The application allows users to perform the following operations:
    - python3 utils.py add_new_book(ISBN, name, description, publish_year, author, price)
 
 - Display all books.
-  - python3 utils.py display_all_books()
+  - python3 utils.py display_all_books(filename)
 
 - Display books with prices lower than the input.
-  - python3 utils.py display_lower_price(price)
+  - python3 utils.py display_lower_price(filename, price)
 
 - Display books with prices higher than the input.
-  - python3 utils.py display_higher_price(price)
+  - python3 utils.py display_higher_price(filename, price)
 
 - Display books by a specific author.
-  - python3 utils.py display_author_books(author)
+  - python3 utils.py display_author_books(filename, author)
 
 - Display books published before a specific year.
-  - python3 utils.py display_lower_year(publish_year)
+  - python3 utils.py display_lower_year(filename, publish_year)
 
 - Display books published after a specific year.
-  - python3 utils.py display_higher_year(publish_year)
+  - python3 utils.py display_higher_year(filename, publish_year)
 <br><br>
 ## Manual testing
 
@@ -63,17 +63,17 @@ Step 3. Uncomment the following functions and fill the example arguments within 
 ```py
 # add_new_book(1, "bookname", "description", 2018, "author", 29.99)
 
-# display_all_books()
+# display_all_books("books.json")
 
-# display_lower_price(price)
+# display_lower_price("books.json", price)
 
-# display_higher_price(price)
+# display_higher_price("books.json", price)
 
-# display_author_books(author)
+# display_author_books("books.json", author)
 
-# display_lower_year(publish_year)
+# display_lower_year("books.json", publish_year)
 
-# display_higher_year(publish_year)
+# display_higher_year("books.json", publish_year)
 ```
 
 <br>
