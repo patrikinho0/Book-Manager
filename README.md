@@ -11,7 +11,7 @@ To use the Book Manager Application, follow these steps:
    git clone https://github.com/patrikinho0/third-assignment-patrikinho0.git
    ```
 
-3. Run the application using your IDE terminal in the main.py file.
+2. Run the application using your IDE terminal in the main.py file.
 
 ## Files
 
